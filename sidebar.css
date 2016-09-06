@@ -1,0 +1,150 @@
+/* Sidebar */
+
+#sidebar-wrapper{
+	z-index: 1;
+	position: absolute;
+	width: 0;
+	height: 100%;
+	overflow-y: hidden;
+	background: #2C3E50;
+}
+
+/* Main Content */
+
+#page-content-wrapper{
+	width: 100%;
+	position: absolute;
+	padding: 15px;
+}
+
+/* Change the width of the sidebar to be displayed */
+
+#wrapper.menuDisplayed #sidebar-wrapper{
+	width: 250px;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+	padding-left: 250px;
+}
+
+/* Sidebar Styling*/
+
+.sidebar-nav{
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li{
+	text-indent: 20px;
+	line-height: 40px;
+}
+
+.sidebar-nav li a{
+	display: block;
+	text-decoration: none;
+	color: #DDD;
+}
+
+.sidebar-nav li a:hover{
+	background-color: darkcyan;
+}
+
+/* Well Stylings for page headers */
+
+.well-sm{
+    text-align: center;
+    color: darkred;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#welcome.well-sm{
+    color: cadetblue;
+}
+
+.well h3{
+    color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.well p{
+    text-align: center;
+}
+
+.well ul{
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.well ul li{
+    color: cadetblue;
+}
+
+/* navbar color stylings */
+
+.navbar{
+    background-color:azure;
+}
+
+.navbar-nav li a:hover{
+    background-color: cyan;
+    border-radius: 20px;
+}
+
+.active a{
+    background-color: darkturquoise;
+    border-radius: 20px;
+}
+
+.icon-bar{
+    background-color: darkturquoise;
+}
+
+/* body stylings */
+
+html, body{
+    background-color: lightsteelblue;
+    height: 100%;
+}
+
+.container{
+    background-color: floralwhite;
+    position: relative;
+}
+
+#centerPage.container{
+    min-height: 100%;
+}
+
+#disclaimer.well{
+    position: absolute;
+    bottom: 0;
+    width:auto;
+    right: 15px;
+    left: 15px;
+}
+
+/* list stylings */
+
+#needs li{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+#needs li:nth-child(odd){
+    background-color: #b3ffff;    
+}
+
+#needs li:hover{
+    background-color: azure;
+}
+
+
+
+
+
+
+
+
